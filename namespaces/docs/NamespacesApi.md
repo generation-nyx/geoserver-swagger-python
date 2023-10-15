@@ -1,4 +1,4 @@
-# swagger_client.NamespacesApi
+# swagger-geoserver-namespaces.NamespacesApi
 
 All URIs are relative to *https://geoserver:8080/geoserver/rest*
 
@@ -23,12 +23,12 @@ Delete a namespace
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import swagger-geoserver-namespaces
+from swagger-geoserver-namespaces.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NamespacesApi()
+api_instance = swagger-geoserver-namespaces.NamespacesApi()
 namespace_name = 'namespace_name_example' # str | Name of the namespace
 
 try:
@@ -68,12 +68,12 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import swagger-geoserver-namespaces
+from swagger-geoserver-namespaces.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NamespacesApi()
+api_instance = swagger-geoserver-namespaces.NamespacesApi()
 
 try:
     api_instance.delete_namespaces()
@@ -110,12 +110,12 @@ Retrieves a single namespace definition. Use the \"Accept:\" header to specify f
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import swagger-geoserver-namespaces
+from swagger-geoserver-namespaces.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NamespacesApi()
+api_instance = swagger-geoserver-namespaces.NamespacesApi()
 namespace_name = 'namespace_name_example' # str | The name of the namespace to fetch, or \"default\" to get the default namespace.
 
 try:
@@ -158,12 +158,12 @@ Displays a list of all namespaces on the server. Use the \"Accept:\" header to s
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import swagger-geoserver-namespaces
+from swagger-geoserver-namespaces.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NamespacesApi()
+api_instance = swagger-geoserver-namespaces.NamespacesApi()
 
 try:
     # Get a list of namespaces
@@ -200,12 +200,12 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import swagger-geoserver-namespaces
+from swagger-geoserver-namespaces.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NamespacesApi()
+api_instance = swagger-geoserver-namespaces.NamespacesApi()
 
 try:
     api_instance.post_namespace()
@@ -242,13 +242,13 @@ Adds a new namespace to the server
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import swagger-geoserver-namespaces
+from swagger-geoserver-namespaces.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NamespacesApi()
-namespace_body = swagger_client.Namespace() # Namespace | The layer group body information to upload.
+api_instance = swagger-geoserver-namespaces.NamespacesApi()
+namespace_body = swagger-geoserver-namespaces.Namespace() # Namespace | The layer group body information to upload.
 
 try:
     # Add a new namespace to GeoServer
@@ -290,12 +290,12 @@ Takes the body of the put and modifies the namespace from it.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import swagger-geoserver-namespaces
+from swagger-geoserver-namespaces.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NamespacesApi()
+api_instance = swagger-geoserver-namespaces.NamespacesApi()
 namespace_name = 'namespace_name_example' # str | Name of namespace, or \"default\" to set the default namespace using the namespace prefix in the body of the post.
 
 try:
@@ -335,12 +335,12 @@ No authorization required
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import swagger-geoserver-namespaces
+from swagger-geoserver-namespaces.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NamespacesApi()
+api_instance = swagger-geoserver-namespaces.NamespacesApi()
 
 try:
     api_instance.put_namespaces()

@@ -16,12 +16,12 @@
 from __future__ import absolute_import
 
 # import apis into sdk package
-from swagger_client.api.namespaces_api import NamespacesApi
+from swagger-geoserver-namespaces.api.namespaces_api import NamespacesApi
 
 # import ApiClient
-from swagger_client.api_client import ApiClient
-from swagger_client.configuration import Configuration
+from swagger-geoserver-namespaces.api_client import ApiClient
+from swagger-geoserver-namespaces.configuration import Configuration
 # import models into sdk package
-from swagger_client.models.namespace import Namespace
-from swagger_client.models.namespace_response import NamespaceResponse
-from swagger_client.models.namespaces_response import NamespacesResponse
+from swagger-geoserver-namespaces.models.namespace import Namespace
+from swagger-geoserver-namespaces.models.namespace_response import NamespaceResponse
+from swagger-geoserver-namespaces.models.namespaces_response import NamespacesResponse

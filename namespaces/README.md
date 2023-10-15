@@ -24,7 +24,7 @@ pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
 
 Then import the package:
 ```python
-import swagger_client 
+import swagger-geoserver-namespaces 
 ```
 
 ### Setuptools
@@ -38,7 +38,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import swagger_client
+import swagger-geoserver-namespaces
 ```
 
 ## Getting Started
@@ -48,12 +48,12 @@ Please follow the [installation procedure](#installation--usage) and then run th
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import swagger-geoserver-namespaces
+from swagger-geoserver-namespaces.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.NamespacesApi(swagger_client.ApiClient(configuration))
+api_instance = swagger-geoserver-namespaces.NamespacesApi(swagger-geoserver-namespaces.ApiClient(configuration))
 namespace_name = 'namespace_name_example' # str | Name of the namespace
 
 try:

@@ -15,6 +15,6 @@
 from __future__ import absolute_import
 
 # import models into model package
-from swagger_client.models.namespace import Namespace
-from swagger_client.models.namespace_response import NamespaceResponse
-from swagger_client.models.namespaces_response import NamespacesResponse
+from swagger-geoserver-namespaces.models.namespace import Namespace
+from swagger-geoserver-namespaces.models.namespace_response import NamespaceResponse
+from swagger-geoserver-namespaces.models.namespaces_response import NamespacesResponse

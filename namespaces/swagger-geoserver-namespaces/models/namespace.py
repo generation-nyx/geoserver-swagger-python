@@ -16,7 +16,7 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.configuration import Configuration
+from swagger-geoserver-namespaces.configuration import Configuration
 
 
 class Namespace(object):
